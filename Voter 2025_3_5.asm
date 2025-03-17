@@ -14,7 +14,7 @@ includelib 	WSock32.lib
 org 0h
 cHead1                  db                  'GET /f/q---wiaui_1339034079_1644--1-1-0/m?kz='
 org 37h
-cFoot1                  db                  ' HTTP/1.1',0dh,0ah,'Host: wapp.baidu.com',0dh,0ah,'Connection: keep-alive',0dh,0ah, 'User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.21 (KHTML, like Gecko) Chrome/19.0.1041.0 Safari/535.21',0dh,0ah,'Accept-Charset: GBK,utf-8;q=0.7,*;q=0.3',0dh,0ah,'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',0dh,0ah,'Accept-Encoding: gzip,deflate,sdch',0dh,0ah,'Accept-Language: zh-CN,zh;q=0.8',0dh,0ah,0dh,0ah
+cFoot1                  db                  'HTTP/1.1',0dh,0ah,'Host: wapp.baidu.com',0dh,0ah,'Connection: keep-alive',0dh,0ah, 'User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.21 (KHTML, like Gecko) Chrome/19.0.1041.0 Safari/535.21',0dh,0ah,'Accept-Charset: GBK,utf-8;q=0.7,*;q=0.3',0dh,0ah,'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',0dh,0ah,'Accept-Encoding: gzip,deflate,sdch',0dh,0ah,'Accept-Language: zh-CN,zh;q=0.8',0dh,0ah,0dh,0ah
 org 1B0h
 cHead2                  db                  'POST /f/q---wiaui_1339034079_1644--1-1-0/m HTTP/1.1',0dh,0ah,'Host: wapp.baidu.com',0dh,0ah,'Connection: keep-alive',0dh,0ah,'Content-Length: 198',0dh,0ah,'Cache-Control: max-age=0',0dh,0ah,'Origin: http://wapp.baidu.com',0dh,0ah,'User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.21 (KHTML, like Gecko) Chrome/19.0.1041.0 Safari/535.21',0dh,0ah,'Accept-Charset: GBK,utf-8;q=0.7,*;q=0.3',0dh,0ah,'Content-Type: application/x-www-form-urlencoded',0dh,0ah
 org 32Dh
