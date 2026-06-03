@@ -29,7 +29,7 @@ class RequestBuilder {
 private:
     // 固定请求头片段（与原代码完全一致）
     const std::string GET_HEAD = "GET /f/q---wiaui_1339034079_1644--1-1-0/m?kz=";
-    const std::string GET_FOOT = "HTTP/1.1\r\nHost: wapp.baidu.com\r\nConnection: keep-alive\r\n"
+    const std::string GET_FOOT = " HTTP/1.1\r\nHost: wapp.baidu.com\r\nConnection: keep-alive\r\n"
         "User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.21 (KHTML, like Gecko) Chrome/19.0.1041.0 Safari/535.21\r\n"
         "Accept-Charset: GBK,utf-8;q=0.7,*;q=0.3\r\n"
         "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\n"
@@ -50,7 +50,7 @@ private:
     const std::string POST_PART3 = "; IS_NEW_USER=";
     const std::string POST_PART4 = "; BAIDUID=";
     const std::string POST_PART5 = ":FG=1\r\n\r\nselect_items=";
-    const std::string POST_PART6 = "&pinf=&sign_id=0000000000000000000000000000000000000000000000000000000000000000000000000000000000";
+    const std::string POST_PART6 = "&pinf=&sign_id=";
     const std::string POST_PART7 = "&can_post=&vote_id=";
     const std::string POST_PART8 = "&product_id=1&tbs=";
     const std::string POST_PART9 = "&tn=bdVotPos&z=0000000000&sub1=%E6%8A%95%E7%A5%A8\r\n";
