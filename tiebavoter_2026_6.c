@@ -10,7 +10,7 @@ struct GET_Pocket
 {
     const char strHead[46] = "GET /f/q---wiaui_1339034079_1644--1-1-0/m?kz=";
     char Addres[12] = { 0 };
-    const char strFoot[356] = "HTTP/1.1\r\nHost: wapp.baidu.com\r\nConnection: keep-alive\r\n"
+    const char strFoot[356] = " HTTP/1.1\r\nHost: wapp.baidu.com\r\nConnection: keep-alive\r\n"
         "User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.21 (KHTML, like Gecko) Chrome/19.0.1041.0 Safari/535.21\r\n"
         "Accept-Charset: GBK,utf-8;q=0.7,*;q=0.3\r\n"
         "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\n"
