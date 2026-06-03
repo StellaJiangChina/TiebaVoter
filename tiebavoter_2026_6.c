@@ -42,7 +42,7 @@ struct POST_Pocket
     const char str5[23] = ":FG=1\r\n\r\n"
          "select_items=";
     char select_items[3] = { 0 };
-    const char str6[135] = "&pinf=&sign_id=0000000000000000000000000000000000000000000000000000000000000000000000000000000000";
+    const char str6[135] = "&pinf=&sign_id=";
     char sign_id[32] = {0};
     const char str7[20] = "&can_post=&vote_id=";
     char vote_id[30] = { 0 };
