@@ -1,3 +1,4 @@
+//AI转换出来的C语言版本
 #include <windows.h>
 #include <winsock2.h>
 #include <stdio.h>
